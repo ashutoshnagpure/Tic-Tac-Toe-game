@@ -5,7 +5,11 @@
 
 body{
     background-color: #38a3a5;
+    display:flex;
     text-align: center;
+    justify-content: center;
+    align-items: center;
+
 }
 
 .container{
@@ -23,6 +27,7 @@ body{
     justify-content: center;
     align-items: center;
     gap: 1.5vmin;
+    margin-top: 1rem;
 }
 
 .box{
@@ -30,8 +35,43 @@ body{
     width: 18vmin;
     border-radius: 1rem;
     border: none;
-    box-shadow: 0 0 1 rem rgba(0 0 0,0.1);
+    box-shadow: 0 0 1rem rgba(0,0,0,0.1);
     font-size: 8vmin;
     color: #80ed99;
     background-color: #22577a;
+
 }
+
+#reset-btn{
+    padding: 1rem;
+    font-size: 1.5rem;
+    background-color: #22577a;
+    color: #fff;
+    border-radius: 1rem;
+    border: none;
+    margin-top: 1rem;
+}
+
+#new-btn{
+    padding: 1rem;
+    font-size: 1.5rem;
+    background-color: #22577a;
+    color: #fff;
+    border-radius: 1rem;
+    border: none;
+    margin-top: 2.5rem;
+}
+
+#msg {
+    color: #ffffc7;
+    font-size: 8vmin;
+}
+
+.msg-container{
+    height: 20vmin;
+}
+
+.hide{
+    display: none;
+}
+
